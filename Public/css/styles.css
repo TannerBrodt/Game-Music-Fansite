@@ -1,3 +1,68 @@
 body{
-	background-color: blue;
+	background-color: #f7f6ed;
+	padding:0;
+	margin:0;
 }
+
+.navFiller{
+	height:100px;
+}
+
+/*
+section.display{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 70vh;
+	background: url(../pictures/DKC2-Cover-Art.jpg);
+	background-position: center;
+	background-size: cover;
+}
+*/
+
+.content{
+	background-color: white;
+	padding: 20px 30px;
+	width: 700px;
+	/* margin: auto; */
+	margin: 15px;
+
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.content p{
+	text-align: justify;
+}
+
+#scroller{
+	width: 100%;
+	height: 70vh;
+	margin: 0 auto;
+	position: relative;
+}
+
+#scroller .innerScrollArea{
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#scroller ul{
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+#scroller li{
+	position:absolute;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	
+}
+
+
